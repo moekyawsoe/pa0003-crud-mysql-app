@@ -1,0 +1,30 @@
+[
+  {
+    "_id": "745542ca-d8ca-419e-9dcc-16217666a377",
+    "name": "dev",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2022-12-17T09:07:45.948Z",
+    "modified": "2022-12-17T09:07:45.948Z",
+    "data": [
+      {
+        "name": "base_url",
+        "value": "http://localhost:3080"
+      }
+    ]
+  },
+  {
+    "_id": "ce9fcff5-9421-4e21-948b-563a07f7d5f4",
+    "name": "live",
+    "default": false,
+    "sortNum": 20000,
+    "created": "2022-12-17T09:07:52.258Z",
+    "modified": "2022-12-17T09:07:52.258Z",
+    "data": [
+      {
+        "name": "base_url",
+        "value": "https://abc.com"
+      }
+    ]
+  }
+]

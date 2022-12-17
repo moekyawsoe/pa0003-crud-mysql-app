@@ -1,0 +1,80 @@
+[
+  {
+    "_id": "9c71bf58-d95f-4fc8-88c9-a3fa6af3bf4a",
+    "colId": "42e1edf2-457d-45b2-85e3-356c2df1d526",
+    "containerId": "",
+    "name": "Get Customer List",
+    "url": "{{base_url}}/customers/list",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-12-17T09:04:53.571Z",
+    "modified": "2022-12-17T09:09:15.864Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "7205125b-55ec-4639-8bd8-eb8c5630be7a",
+    "colId": "42e1edf2-457d-45b2-85e3-356c2df1d526",
+    "containerId": "",
+    "name": "Create New Customer",
+    "url": "{{base_url}}/customer/create",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-12-17T10:56:42.601Z",
+    "modified": "2022-12-17T11:07:21.904Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"customer_name\" : \"Ko Ko\",\n  \"customer_phone\" : \"09123456779\",\n  \"customer_address\" : \"Main Road\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "a8c7ea9c-2949-4f40-844f-761e55f59645",
+    "colId": "42e1edf2-457d-45b2-85e3-356c2df1d526",
+    "containerId": "",
+    "name": "Get Customer Details",
+    "url": "",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2022-12-17T11:08:41.042Z",
+    "modified": "2022-12-17T11:08:41.042Z",
+    "headers": []
+  },
+  {
+    "_id": "54c0dffc-4c66-45d8-9b98-22544564e68c",
+    "colId": "42e1edf2-457d-45b2-85e3-356c2df1d526",
+    "containerId": "",
+    "name": "Update Customer",
+    "url": "{{base_url}}/customer/update/1",
+    "method": "PUT",
+    "sortNum": 40000,
+    "created": "2022-12-17T11:08:52.782Z",
+    "modified": "2022-12-17T11:20:13.373Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"customer_name\" : \"Kyaw Grr\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "7564eb7d-ad46-4b58-b7d8-95fd6ede8048",
+    "colId": "42e1edf2-457d-45b2-85e3-356c2df1d526",
+    "containerId": "",
+    "name": "Delete Customer",
+    "url": "{{base_url}}/customer/delete/2",
+    "method": "DELETE",
+    "sortNum": 50000,
+    "created": "2022-12-17T11:09:04.137Z",
+    "modified": "2022-12-17T11:10:27.991Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]
